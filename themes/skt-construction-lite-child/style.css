@@ -1,0 +1,137 @@
+/*
+Theme Name: Child SKT Construction Lite
+Theme URI: http://www.sktthemes.net/shop/construction-lite/
+Template: skt-construction-lite
+Author: SKT Themes
+Author URI: http://www.sktthemes.net
+Description: SKT Construction is a construction, architecture, builder, and industry related business, corporate, personal, photography and real estate theme which showcases project galleries, contact info, nicely laid out content, animated sections, and compatibility with WooCommerce, NextGen Gallery and contact form 7. Check demo at: http://sktthemesdemo.net/skt-construction-pro/
+Tags: black,gray,yellow,white,dark,light,one-column,two-columns,right-sidebar,responsive-layout,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments
+Version: 1.5.1472940550
+Updated: 2016-09-04 01:09:10
+
+*/
+
+body{background-color:#fff;margin:0;padding:0;color:#5d5c5c;font: normal 15px/20px 'Arial', sans-serif;position:relative;}
+h1,h2,h3,h4,h5,h6{ color:#484f5e; font-family:'Arial', sans-serif; margin:0 0 20px; padding:0; line-height:1.1; font-weight:300; word-wrap:break-word; }
+.section_title{font: 400 40px/40px 'Arial', cursive; margin-bottom:35px;}
+.header .header-inner .logo h1{font-weight:600; margin:0px; line-height:36px; font-family: 'Arial', cursive; color:#efc62c; text-transform:uppercase;}
+.headerright{ /* width:610px; */ float:right; width:60%; font-family: 'Arial', cursive; padding:32px 0 0 0;}
+
+.headerright .column-1, .headerright .column-2, .headerright .column-3{ float:left; width:35%; margin-right:20px;}
+.headerright .column-3/* { width:30%; float:right; color:#1d1d1d; margin:8px 0 0 0; text-align:right;} */ { width:20% !important; margin-right:0; padding-top:10px;}
+
+
+.headerright .headerphone{font: bold 1.5em 'Arial Narrow';color:#fb7000;font-weight: 700;}
+.headerright .headeraddress{font:bold 1em 'Arial';}
+.headerright .headeremail{font:normal 1.05em 'Arial'; color:#828181;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* = innerbanner css
+-------------------------------------------------------------- */
+/*header menu css*/
+.header .header-inner .nav{ background-color:#272727; font:400 14px/20px "Arial",sans-serif; position:relative;z-index: 999; text-transform:uppercase; border-bottom:4px solid #ccc; top:30px; }
+/* = header top sign in  css
+-------------------------------------------------------------- */
+h2.section-title {color:#454545; font:300 36px/40px 'Arial',san-serif; text-align: center; text-transform:uppercase;}
+
+/* = Wrap first css
+-------------------------------------------------------------- */
+
+/* = Services section css
+-------------------------------------------------------------- */
+.services-wrap .listpages h4{font:600 18px/22px 'Arial',san-serif; margin:20px 0; text-transform:uppercase; }
+a.more-button{font:400 22px/24px 'Arial',san-serif; background-color:#efefef; color:#3b3b3b; padding:10px 20px; text-transform:uppercase; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; display:inline-block; margin-top:25px;}
+
+.services-wrap .listpages h4:hover, .services-wrap .listpages a:hover {
+    color: #41B43C !important;
+}
+/* = social icons css
+-------------------------------------------------------------- */
+
+/* = Page lay out css
+-------------------------------------------------------------- */
+
+/* = sidebar
+-------------------------------------------------------------- */
+#sidebar ul li a{ font:300 14px/18px "Arial",sans-serif; color:#3b3b3b;}
+
+/* = Footer css
+-------------------------------------------------------------- */
+
+/* Buttons */
+
+.button{width: 80%;background-color:#1dd621;border:none;cursor:pointer;text-transform:uppercase;font:1.0em 'Arial',san-serif;color:#ffffff;padding:10px 20px;border-radius:3px;}
+
+/* woocommerce CSS
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{ font-family:'Arial',san-serif; color:#ff8a00;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{ font-family:'Arial',san-serif; color:#ff6d84;}
+
+/* Text meant only for screen readers. */
+
+
+
+
+
+/* ============= Contact Page FIXED =========== */
+.wpcf7{ margin:30px 0 0; padding:0;}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"]{width:100%;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;height:35px;padding: 0 15px;color:#797979;margin-bottom:0;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;}
+
+.wpcf7 textarea{width:100%; border:1px solid #cccccc; box-shadow:inset 1px 1px 2px #ccc; height:150px; color:#797979; margin-bottom:0px; font:13.3333px arial; padding:10px 10px 0 10px; padding-right:0;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px;}
+
+.wpcf7 input[type="submit"]{width: auto;background-color:#efc62c;border:none;cursor:pointer;text-transform:uppercase;font:1.0em 'Arial',san-serif;color:#ffffff;padding: 10px 18px;border-radius:3px;/* float: left; *//* margin-left: -42px; */}	
+
+
+
+
+#sidebar input[type="text"]{width:100%; margin-bottom:0; height: 35px;}
+
+
+
+
+/* ============= Comment Form ============ */
+h1.screen-reader-text{font:22px 'Arial',san-serif;}
+h3#reply-title{font:300 18px 'Arial',san-serif;}
+
+/* Widget Sidebar */
+
+
+
+
+
+/* My FIX */
+
+.popravka{
+padding-left: none !important;
+}
+
+
+
+.header .header-inner .nav ul li a:hover,
+.header .header-inner .nav ul li.current_page_item a{background-color:#41B43C;color:#FFFFFF; transition: all 0.6s ease-in-out;}
+
+.header .header-inner .nav {border-bottom: 4px solid #41B43C;}
+
+					
+					
+/* My FIX - ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“*/
+
+
+
+.alignleft {float:left; margin-right:10px;}
+.alignright {float:right; margin-left:10px;}
+.aligncenter {margin-left:auto; margin-right:auto; display:block}
+
+.post-thumb{float:left; margin-right:10px;}
